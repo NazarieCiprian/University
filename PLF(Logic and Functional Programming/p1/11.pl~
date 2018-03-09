@@ -1,0 +1,8 @@
+replaceE([],_,_,[]).
+replaceE([H|T],E,O,[H|TR]):-
+    H=\=E,
+    replaceE(T,E,O,TR).
+replaceE([H|T],E,O,[O|TR]):-
+    H=:=E,
+    replaceE(T,E,O,TR).
+

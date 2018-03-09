@@ -1,0 +1,7 @@
+120,red,99,80,wwwgoogle
+100,navy,89,62,wwwgoogle
+149,red,100,59,google
+179,blue,100,70,wwwgoogle
+145,kaki,100,98,wwwgoogle
+150,red,91,59,wwwgoogle
+140,red,100,59,wwwgoogle

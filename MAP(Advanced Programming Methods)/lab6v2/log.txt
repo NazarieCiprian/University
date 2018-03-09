@@ -1,0 +1,1831 @@
+ProgramId:1
+ExeStack:
+
+{
+	{
+	v=10
+	new(a, 22)
+
+}
+	{
+	fork({
+	{
+	writeHeap(a, 30)
+
+	v=32
+}
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+})
+
+	Print(v)
+}
+}
+Print(readH(a)
+)
+SymbolTable:
+
+Heap:
+Output list:
+ProgramId:1
+ExeStack:
+
+{
+	v=10
+	new(a, 22)
+
+}
+{
+	fork({
+	{
+	writeHeap(a, 30)
+
+	v=32
+}
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+})
+
+	Print(v)
+}
+Print(readH(a)
+)
+SymbolTable:
+
+Heap:
+Output list:
+ProgramId:1
+ExeStack:
+
+v=10
+new(a, 22)
+
+{
+	fork({
+	{
+	writeHeap(a, 30)
+
+	v=32
+}
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+})
+
+	Print(v)
+}
+Print(readH(a)
+)
+SymbolTable:
+
+Heap:
+Output list:
+ProgramId:1
+ExeStack:
+
+new(a, 22)
+
+{
+	fork({
+	{
+	writeHeap(a, 30)
+
+	v=32
+}
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+})
+
+	Print(v)
+}
+Print(readH(a)
+)
+SymbolTable:
+
+v->10
+Heap:
+Output list:
+ProgramId:1
+ExeStack:
+
+{
+	fork({
+	{
+	writeHeap(a, 30)
+
+	v=32
+}
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+})
+
+	Print(v)
+}
+Print(readH(a)
+)
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->22
+Output list:
+ProgramId:1
+ExeStack:
+
+fork({
+	{
+	writeHeap(a, 30)
+
+	v=32
+}
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+})
+
+Print(v)
+Print(readH(a)
+)
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->22
+Output list:
+ProgramId:1
+ExeStack:
+
+Print(v)
+Print(readH(a)
+)
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->22
+Output list:
+ProgramId:3
+ExeStack:
+
+{
+	{
+	writeHeap(a, 30)
+
+	v=32
+}
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->22
+Output list:
+ProgramId:1
+ExeStack:
+
+Print(readH(a)
+)
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->22
+Output list:
+10
+ProgramId:3
+ExeStack:
+
+{
+	writeHeap(a, 30)
+
+	v=32
+}
+{
+	Print(v)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->22
+Output list:
+10
+ProgramId:1
+ExeStack:
+
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->22
+Output list:
+10
+22
+ProgramId:3
+ExeStack:
+
+writeHeap(a, 30)
+
+v=32
+{
+	Print(v)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->22
+Output list:
+10
+22
+ProgramId:3
+ExeStack:
+
+v=32
+{
+	Print(v)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->30
+Output list:
+10
+22
+ProgramId:3
+ExeStack:
+
+{
+	Print(v)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->2
+v->32
+Heap:
+2->30
+Output list:
+10
+22
+ProgramId:3
+ExeStack:
+
+Print(v)
+Print(readH(a)
+)
+SymbolTable:
+
+a->2
+v->32
+Heap:
+2->30
+Output list:
+10
+22
+ProgramId:3
+ExeStack:
+
+Print(readH(a)
+)
+SymbolTable:
+
+a->2
+v->32
+Heap:
+2->30
+Output list:
+10
+22
+32
+ProgramId:3
+ExeStack:
+
+SymbolTable:
+
+a->2
+v->32
+Heap:
+2->30
+Output list:
+10
+22
+32
+30
+ProgramId:1
+ExeStack:
+
+v=10
+{
+	new(a, 22)
+
+	{
+	fork({
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+})
+
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+}
+SymbolTable:
+
+Heap:
+Output list:
+ProgramId:1
+ExeStack:
+
+{
+	new(a, 22)
+
+	{
+	fork({
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+})
+
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+}
+SymbolTable:
+
+v->10
+Heap:
+Output list:
+ProgramId:1
+ExeStack:
+
+new(a, 22)
+
+{
+	fork({
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+})
+
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+SymbolTable:
+
+v->10
+Heap:
+Output list:
+ProgramId:1
+ExeStack:
+
+{
+	fork({
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+})
+
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->22
+Output list:
+ProgramId:1
+ExeStack:
+
+fork({
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+})
+
+{
+	Print(v)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->22
+Output list:
+ProgramId:1
+ExeStack:
+
+{
+	Print(v)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->22
+Output list:
+ProgramId:3
+ExeStack:
+
+{
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+}
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->22
+Output list:
+ProgramId:1
+ExeStack:
+
+Print(v)
+Print(readH(a)
+)
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->22
+Output list:
+ProgramId:3
+ExeStack:
+
+writeHeap(a, 30)
+
+{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->22
+Output list:
+ProgramId:1
+ExeStack:
+
+Print(readH(a)
+)
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->30
+Output list:
+10
+ProgramId:3
+ExeStack:
+
+{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->30
+Output list:
+10
+ProgramId:1
+ExeStack:
+
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->30
+Output list:
+10
+30
+ProgramId:3
+ExeStack:
+
+v=32
+{
+	Print(v)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->2
+v->10
+Heap:
+2->30
+Output list:
+10
+30
+ProgramId:3
+ExeStack:
+
+{
+	Print(v)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->2
+v->32
+Heap:
+2->30
+Output list:
+10
+30
+ProgramId:3
+ExeStack:
+
+Print(v)
+Print(readH(a)
+)
+SymbolTable:
+
+a->2
+v->32
+Heap:
+2->30
+Output list:
+10
+30
+ProgramId:3
+ExeStack:
+
+Print(readH(a)
+)
+SymbolTable:
+
+a->2
+v->32
+Heap:
+2->30
+Output list:
+10
+30
+32
+ProgramId:3
+ExeStack:
+
+SymbolTable:
+
+a->2
+v->32
+Heap:
+2->30
+Output list:
+10
+30
+32
+30
+ProgramId:1
+ExeStack:
+
+{
+	v=6
+	while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+}
+Print(v)
+SymbolTable:
+
+Heap:
+Output list:
+ProgramId:1
+ExeStack:
+
+v=6
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+Heap:
+Output list:
+ProgramId:1
+ExeStack:
+
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->6
+Heap:
+Output list:
+ProgramId:1
+ExeStack:
+
+{
+	Print(v)
+	v=v-1
+}
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->6
+Heap:
+Output list:
+ProgramId:1
+ExeStack:
+
+Print(v)
+v=v-1
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->6
+Heap:
+Output list:
+ProgramId:1
+ExeStack:
+
+v=v-1
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->6
+Heap:
+Output list:
+6
+ProgramId:1
+ExeStack:
+
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->5
+Heap:
+Output list:
+6
+ProgramId:1
+ExeStack:
+
+{
+	Print(v)
+	v=v-1
+}
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->5
+Heap:
+Output list:
+6
+ProgramId:1
+ExeStack:
+
+Print(v)
+v=v-1
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->5
+Heap:
+Output list:
+6
+ProgramId:1
+ExeStack:
+
+v=v-1
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->5
+Heap:
+Output list:
+6
+5
+ProgramId:1
+ExeStack:
+
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->4
+Heap:
+Output list:
+6
+5
+ProgramId:1
+ExeStack:
+
+Print(v)
+SymbolTable:
+
+v->4
+Heap:
+Output list:
+6
+5
+ProgramId:1
+ExeStack:
+
+SymbolTable:
+
+v->4
+Heap:
+Output list:
+6
+5
+4
+ProgramId:2
+ExeStack:
+
+v=10
+{
+	new(a, 22)
+
+	{
+	fork({
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+})
+
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+}
+SymbolTable:
+
+Heap:
+Output list:
+ProgramId:2
+ExeStack:
+
+{
+	new(a, 22)
+
+	{
+	fork({
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+})
+
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+}
+SymbolTable:
+
+v->10
+Heap:
+Output list:
+ProgramId:2
+ExeStack:
+
+new(a, 22)
+
+{
+	fork({
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+})
+
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+SymbolTable:
+
+v->10
+Heap:
+Output list:
+ProgramId:2
+ExeStack:
+
+{
+	fork({
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+})
+
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->22
+Output list:
+ProgramId:2
+ExeStack:
+
+fork({
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+})
+
+{
+	Print(v)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->22
+Output list:
+ProgramId:2
+ExeStack:
+
+{
+	Print(v)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->22
+Output list:
+ProgramId:4
+ExeStack:
+
+{
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+}
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->22
+Output list:
+ProgramId:2
+ExeStack:
+
+Print(v)
+Print(readH(a)
+)
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->22
+Output list:
+ProgramId:4
+ExeStack:
+
+writeHeap(a, 30)
+
+{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->22
+Output list:
+ProgramId:2
+ExeStack:
+
+Print(readH(a)
+)
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->30
+Output list:
+10
+ProgramId:4
+ExeStack:
+
+{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->30
+Output list:
+10
+ProgramId:2
+ExeStack:
+
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->30
+Output list:
+10
+30
+ProgramId:4
+ExeStack:
+
+v=32
+{
+	Print(v)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->30
+Output list:
+10
+30
+ProgramId:4
+ExeStack:
+
+{
+	Print(v)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->3
+v->32
+Heap:
+3->30
+Output list:
+10
+30
+ProgramId:4
+ExeStack:
+
+Print(v)
+Print(readH(a)
+)
+SymbolTable:
+
+a->3
+v->32
+Heap:
+3->30
+Output list:
+10
+30
+ProgramId:4
+ExeStack:
+
+Print(readH(a)
+)
+SymbolTable:
+
+a->3
+v->32
+Heap:
+3->30
+Output list:
+10
+30
+32
+ProgramId:4
+ExeStack:
+
+SymbolTable:
+
+a->3
+v->32
+Heap:
+3->30
+Output list:
+10
+30
+32
+30
+ProgramId:1
+ExeStack:
+
+{
+	v=6
+	while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+}
+Print(v)
+SymbolTable:
+
+Heap:
+Output list:
+ProgramId:1
+ExeStack:
+
+v=6
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+Heap:
+Output list:
+ProgramId:1
+ExeStack:
+
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->6
+Heap:
+Output list:
+ProgramId:1
+ExeStack:
+
+{
+	Print(v)
+	v=v-1
+}
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->6
+Heap:
+Output list:
+ProgramId:1
+ExeStack:
+
+Print(v)
+v=v-1
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->6
+Heap:
+Output list:
+ProgramId:1
+ExeStack:
+
+v=v-1
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->6
+Heap:
+Output list:
+6
+ProgramId:1
+ExeStack:
+
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->5
+Heap:
+Output list:
+6
+ProgramId:1
+ExeStack:
+
+{
+	Print(v)
+	v=v-1
+}
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->5
+Heap:
+Output list:
+6
+ProgramId:1
+ExeStack:
+
+Print(v)
+v=v-1
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->5
+Heap:
+Output list:
+6
+ProgramId:1
+ExeStack:
+
+v=v-1
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->5
+Heap:
+Output list:
+6
+5
+ProgramId:1
+ExeStack:
+
+while(v-4){
+	{
+	Print(v)
+	v=v-1
+}
+}
+
+Print(v)
+SymbolTable:
+
+v->4
+Heap:
+Output list:
+6
+5
+ProgramId:1
+ExeStack:
+
+Print(v)
+SymbolTable:
+
+v->4
+Heap:
+Output list:
+6
+5
+ProgramId:1
+ExeStack:
+
+SymbolTable:
+
+v->4
+Heap:
+Output list:
+6
+5
+4
+ProgramId:2
+ExeStack:
+
+v=10
+{
+	new(a, 22)
+
+	{
+	fork({
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+})
+
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+}
+SymbolTable:
+
+Heap:
+Output list:
+ProgramId:2
+ExeStack:
+
+{
+	new(a, 22)
+
+	{
+	fork({
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+})
+
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+}
+SymbolTable:
+
+v->10
+Heap:
+Output list:
+ProgramId:2
+ExeStack:
+
+new(a, 22)
+
+{
+	fork({
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+})
+
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+SymbolTable:
+
+v->10
+Heap:
+Output list:
+ProgramId:2
+ExeStack:
+
+{
+	fork({
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+})
+
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->22
+Output list:
+ProgramId:2
+ExeStack:
+
+fork({
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+})
+
+{
+	Print(v)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->22
+Output list:
+ProgramId:2
+ExeStack:
+
+{
+	Print(v)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->22
+Output list:
+ProgramId:4
+ExeStack:
+
+{
+	writeHeap(a, 30)
+
+	{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+}
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->22
+Output list:
+ProgramId:2
+ExeStack:
+
+Print(v)
+Print(readH(a)
+)
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->22
+Output list:
+ProgramId:4
+ExeStack:
+
+writeHeap(a, 30)
+
+{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->22
+Output list:
+ProgramId:2
+ExeStack:
+
+Print(readH(a)
+)
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->30
+Output list:
+10
+ProgramId:4
+ExeStack:
+
+{
+	v=32
+	{
+	Print(v)
+	Print(readH(a)
+)
+}
+}
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->30
+Output list:
+10
+ProgramId:2
+ExeStack:
+
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->30
+Output list:
+10
+30
+ProgramId:4
+ExeStack:
+
+v=32
+{
+	Print(v)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->3
+v->10
+Heap:
+3->30
+Output list:
+10
+30
+ProgramId:4
+ExeStack:
+
+{
+	Print(v)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->3
+v->32
+Heap:
+3->30
+Output list:
+10
+30
+ProgramId:4
+ExeStack:
+
+Print(v)
+Print(readH(a)
+)
+SymbolTable:
+
+a->3
+v->32
+Heap:
+3->30
+Output list:
+10
+30
+ProgramId:4
+ExeStack:
+
+Print(readH(a)
+)
+SymbolTable:
+
+a->3
+v->32
+Heap:
+3->30
+Output list:
+10
+30
+32
+ProgramId:4
+ExeStack:
+
+SymbolTable:
+
+a->3
+v->32
+Heap:
+3->30
+Output list:
+10
+30
+32
+30

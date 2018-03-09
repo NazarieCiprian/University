@@ -1,0 +1,2 @@
+Car body:sedan Electric engine fuel:electricity autonomy:100  Price:11001
+Car body:sedan Electric engine fuel:electricity autonomy:100  Price:11001

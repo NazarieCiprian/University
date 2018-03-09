@@ -1,0 +1,16 @@
+isPos(P):-P=:=1.
+isPos(P):-P=:=3.
+isPos(P):-P=:=7.
+isPos(P):-P=:=15.
+
+insertPos([],_,_,[]).
+insertPos([H|T],E,P,[H,E|TR]):-
+    isPos(P),
+    P1 is P+1,
+    insertPos(T,E,P1,TR).
+
+insertPos([H|T],E,P,[H|TR]):-
+    not(isPos(P)),
+    P1 is P+1,
+    insertPos(T,E,P1,TR).
+

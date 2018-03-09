@@ -1,0 +1,16 @@
+counte([],_,0).
+counte([H|T],E,C):-
+   H=:=E,
+   counte(T,H,C1),
+   C is C1 +1.
+counte([H|T],E,C):-
+    H=\=E,
+    counte(T,E,C).
+
+isSet([],_).
+isSet([H|T],CL):-
+    counte(CL,H,N),
+    N=:=1,
+    isSet(T,CL).
+isSet([H|_],CL):-
+    not(counte(CL,H,1)).

@@ -1,0 +1,3262 @@
+ExeStack:
+
+{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+Model.Statement.ReadFileStatement@9629756
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+Model.Statement.ReadFileStatement@9629756
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+Output list:
+ExeStack:
+
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+ExeStack:
+
+Print(var_c)
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+ExeStack:
+
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+15
+ExeStack:
+
+{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+15
+ExeStack:
+
+Model.Statement.ReadFileStatement@4c70fda8
+Print(var_c)
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+15
+ExeStack:
+
+Print(var_c)
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+ExeStack:
+
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+Model.Statement.ReadFileStatement@9629756
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+Model.Statement.ReadFileStatement@9629756
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+ExeStack:
+
+Print(var_c)
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+ExeStack:
+
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+15
+ExeStack:
+
+{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+15
+ExeStack:
+
+Model.Statement.ReadFileStatement@4c70fda8
+Print(var_c)
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+15
+ExeStack:
+
+Print(var_c)
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+15
+ExeStack:
+
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+15
+50
+ExeStack:
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+15
+50
+ExeStack:
+
+{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@62ee68d8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@62ee68d8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@62ee68d8
+}
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@62ee68d8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+Model.Statement.ReadFileStatement@62ee68d8
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@62ee68d8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+Model.Statement.ReadFileStatement@62ee68d8
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@62ee68d8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+Output list:
+ExeStack:
+
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@62ee68d8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+ExeStack:
+
+Print(var_c)
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@62ee68d8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+ExeStack:
+
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@62ee68d8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+15
+ExeStack:
+
+{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@62ee68d8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+15
+ExeStack:
+
+Model.Statement.ReadFileStatement@224edc67
+Print(var_c)
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@62ee68d8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+15
+ExeStack:
+
+Print(var_c)
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@62ee68d8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+ExeStack:
+
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@62ee68d8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@62ee68d8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@62ee68d8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@62ee68d8
+}
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+Model.Statement.ReadFileStatement@62ee68d8
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+Model.Statement.ReadFileStatement@62ee68d8
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+ExeStack:
+
+Print(var_c)
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+ExeStack:
+
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+15
+ExeStack:
+
+{
+	Model.Statement.ReadFileStatement@224edc67
+	Print(var_c)
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+15
+ExeStack:
+
+Model.Statement.ReadFileStatement@224edc67
+Print(var_c)
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+15
+ExeStack:
+
+Print(var_c)
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+15
+ExeStack:
+
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+15
+50
+ExeStack:
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+15
+50
+ExeStack:
+
+{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+Model.Statement.ReadFileStatement@9629756
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+Model.Statement.ReadFileStatement@9629756
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@9629756
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@4c70fda8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+Output list:
+ExeStack:
+
+{
+	v=10
+	new(v, 20)
+
+}
+{
+	new(a, 22)
+
+	Print(v)
+}
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+v=10
+new(v, 20)
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+new(v, 20)
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+v->10
+Output list:
+ExeStack:
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+v->0
+Output list:
+ExeStack:
+
+new(a, 22)
+
+Print(v)
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+v->0
+Output list:
+ExeStack:
+
+Print(v)
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+a->1
+v->0
+Output list:
+ExeStack:
+
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+a->1
+v->0
+Output list:
+0
+ExeStack:
+
+{
+	v=10
+	new(v, 20)
+
+}
+{
+	new(a, 22)
+
+	Print(v)
+}
+SymbolTable:
+
+a->1
+v->0
+Output list:
+0
+ExeStack:
+
+v=10
+new(v, 20)
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+SymbolTable:
+
+a->1
+v->0
+Output list:
+0
+ExeStack:
+
+new(v, 20)
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+SymbolTable:
+
+a->1
+v->10
+Output list:
+0
+ExeStack:
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+SymbolTable:
+
+a->1
+v->2
+Output list:
+0
+ExeStack:
+
+new(a, 22)
+
+Print(v)
+SymbolTable:
+
+a->1
+v->2
+Output list:
+0
+ExeStack:
+
+Print(v)
+SymbolTable:
+
+a->3
+v->2
+Output list:
+0
+ExeStack:
+
+SymbolTable:
+
+a->3
+v->2
+Output list:
+0
+2
+ExeStack:
+
+{
+	v=10
+	new(v, 20)
+
+}
+{
+	new(a, 22)
+
+	Print(v)
+}
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+v=10
+new(v, 20)
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+new(v, 20)
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+v->10
+Output list:
+ExeStack:
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+v->0
+Output list:
+ExeStack:
+
+new(a, 22)
+
+Print(v)
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+v->0
+Output list:
+ExeStack:
+
+Print(v)
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+a->1
+v->0
+Output list:
+ExeStack:
+
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+a->1
+v->0
+Output list:
+0
+ExeStack:
+
+{
+	v=10
+	new(v, 20)
+
+}
+{
+	new(a, 22)
+
+	Print(v)
+}
+SymbolTable:
+
+a->1
+v->0
+Output list:
+0
+ExeStack:
+
+v=10
+new(v, 20)
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+SymbolTable:
+
+a->1
+v->0
+Output list:
+0
+ExeStack:
+
+new(v, 20)
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+SymbolTable:
+
+a->1
+v->10
+Output list:
+0
+ExeStack:
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+SymbolTable:
+
+a->1
+v->2
+Output list:
+0
+ExeStack:
+
+new(a, 22)
+
+Print(v)
+SymbolTable:
+
+a->1
+v->2
+Output list:
+0
+ExeStack:
+
+Print(v)
+SymbolTable:
+
+a->3
+v->2
+Output list:
+0
+ExeStack:
+
+SymbolTable:
+
+a->3
+v->2
+Output list:
+0
+2
+ExeStack:
+
+{
+	v=10
+	new(v, 20)
+
+}
+{
+	new(a, 22)
+
+	Print(v)
+}
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+v=10
+new(v, 20)
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+new(v, 20)
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+v->10
+Output list:
+ExeStack:
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+v->0
+Output list:
+ExeStack:
+
+new(a, 22)
+
+Print(v)
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+v->0
+Output list:
+ExeStack:
+
+Print(v)
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+a->1
+v->0
+Output list:
+ExeStack:
+
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(v)
+}
+}
+SymbolTable:
+
+a->1
+v->0
+Output list:
+0
+ExeStack:
+
+{
+	v=10
+	new(v, 20)
+
+}
+{
+	new(a, 22)
+
+	Print(v)
+}
+SymbolTable:
+
+a->1
+v->0
+Output list:
+0
+ExeStack:
+
+v=10
+new(v, 20)
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+SymbolTable:
+
+a->1
+v->0
+Output list:
+0
+ExeStack:
+
+new(v, 20)
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+SymbolTable:
+
+a->1
+v->10
+Output list:
+0
+ExeStack:
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+SymbolTable:
+
+a->1
+v->2
+Output list:
+0
+ExeStack:
+
+new(a, 22)
+
+Print(v)
+SymbolTable:
+
+a->1
+v->2
+Output list:
+0
+ExeStack:
+
+Print(v)
+SymbolTable:
+
+a->3
+v->2
+Output list:
+0
+ExeStack:
+
+SymbolTable:
+
+a->3
+v->2
+Output list:
+0
+2
+ExeStack:
+
+v=2
+Print(v)
+{
+	v=2
+	Print(v)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+Print(v)
+{
+	v=2
+	Print(v)
+}
+SymbolTable:
+
+v->2
+Output list:
+ExeStack:
+
+{
+	v=2
+	Print(v)
+}
+SymbolTable:
+
+v->2
+Output list:
+2
+ExeStack:
+
+v=2
+Print(v)
+SymbolTable:
+
+v->2
+Output list:
+2
+ExeStack:
+
+Print(v)
+SymbolTable:
+
+v->2
+Output list:
+2
+ExeStack:
+
+SymbolTable:
+
+v->2
+Output list:
+2
+2
+ExeStack:
+
+v=2
+Print(v)
+{
+	v=2
+	Print(v)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+Print(v)
+{
+	v=2
+	Print(v)
+}
+SymbolTable:
+
+v->2
+Output list:
+ExeStack:
+
+{
+	v=2
+	Print(v)
+}
+SymbolTable:
+
+v->2
+Output list:
+2
+ExeStack:
+
+v=2
+Print(v)
+SymbolTable:
+
+v->2
+Output list:
+2
+ExeStack:
+
+Print(v)
+SymbolTable:
+
+v->2
+Output list:
+2
+ExeStack:
+
+SymbolTable:
+
+v->2
+Output list:
+2
+2
+ExeStack:
+
+v=2
+Print(v)
+{
+	v=2
+	Print(v)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+Print(v)
+{
+	v=2
+	Print(v)
+}
+SymbolTable:
+
+v->2
+Output list:
+ExeStack:
+
+{
+	v=2
+	Print(v)
+}
+SymbolTable:
+
+v->2
+Output list:
+2
+ExeStack:
+
+v=2
+Print(v)
+SymbolTable:
+
+v->2
+Output list:
+2
+ExeStack:
+
+Print(v)
+SymbolTable:
+
+v->2
+Output list:
+2
+ExeStack:
+
+SymbolTable:
+
+v->2
+Output list:
+2
+2
+ExeStack:
+
+{
+	v=10
+	new(v, 20)
+
+}
+{
+	new(a, 22)
+
+	Print(v)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+v=10
+new(v, 20)
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+new(v, 20)
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+SymbolTable:
+
+v->10
+Output list:
+ExeStack:
+
+{
+	new(a, 22)
+
+	Print(v)
+}
+SymbolTable:
+
+v->0
+Output list:
+ExeStack:
+
+new(a, 22)
+
+Print(v)
+SymbolTable:
+
+v->0
+Output list:
+ExeStack:
+
+Print(v)
+SymbolTable:
+
+a->1
+v->0
+Output list:
+ExeStack:
+
+SymbolTable:
+
+a->1
+v->0
+Output list:
+0
+ExeStack:
+
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	Print(100+readH(v)
+)
+}
+}
+Print(100+readH(a)
+)
+SymbolTable:
+
+Output list:
+ExeStack:
+
+{
+	v=10
+	new(v, 20)
+
+}
+{
+	new(a, 22)
+
+	Print(100+readH(v)
+)
+}
+Print(100+readH(a)
+)
+SymbolTable:
+
+Output list:
+ExeStack:
+
+v=10
+new(v, 20)
+
+{
+	new(a, 22)
+
+	Print(100+readH(v)
+)
+}
+Print(100+readH(a)
+)
+SymbolTable:
+
+Output list:
+ExeStack:
+
+new(v, 20)
+
+{
+	new(a, 22)
+
+	Print(100+readH(v)
+)
+}
+Print(100+readH(a)
+)
+SymbolTable:
+
+v->10
+Output list:
+ExeStack:
+
+{
+	new(a, 22)
+
+	Print(100+readH(v)
+)
+}
+Print(100+readH(a)
+)
+SymbolTable:
+
+v->0
+Output list:
+ExeStack:
+
+new(a, 22)
+
+Print(100+readH(v)
+)
+Print(100+readH(a)
+)
+SymbolTable:
+
+v->0
+Output list:
+ExeStack:
+
+Print(100+readH(v)
+)
+Print(100+readH(a)
+)
+SymbolTable:
+
+a->1
+v->0
+Output list:
+ExeStack:
+
+Print(100+readH(a)
+)
+SymbolTable:
+
+a->1
+v->0
+Output list:
+120
+ExeStack:
+
+SymbolTable:
+
+a->1
+v->0
+Output list:
+120
+122
+ExeStack:
+
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	writeHeap(a, 20)
+
+}
+}
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+{
+	v=10
+	new(v, 20)
+
+}
+{
+	new(a, 22)
+
+	writeHeap(a, 20)
+
+}
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+v=10
+new(v, 20)
+
+{
+	new(a, 22)
+
+	writeHeap(a, 20)
+
+}
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+new(v, 20)
+
+{
+	new(a, 22)
+
+	writeHeap(a, 20)
+
+}
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+v->10
+Output list:
+ExeStack:
+
+{
+	new(a, 22)
+
+	writeHeap(a, 20)
+
+}
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+v->0
+Output list:
+ExeStack:
+
+new(a, 22)
+
+writeHeap(a, 20)
+
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+v->0
+Output list:
+ExeStack:
+
+writeHeap(a, 20)
+
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->1
+v->0
+Output list:
+ExeStack:
+
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->1
+v->0
+Output list:
+ExeStack:
+
+Print(a)
+Print(readH(a)
+)
+SymbolTable:
+
+a->1
+v->0
+Output list:
+ExeStack:
+
+Print(readH(a)
+)
+SymbolTable:
+
+a->1
+v->0
+Output list:
+1
+ExeStack:
+
+SymbolTable:
+
+a->1
+v->0
+Output list:
+1
+20
+ExeStack:
+
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	writeHeap(a, 30)
+
+}
+}
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+{
+	v=10
+	new(v, 20)
+
+}
+{
+	new(a, 22)
+
+	writeHeap(a, 30)
+
+}
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+v=10
+new(v, 20)
+
+{
+	new(a, 22)
+
+	writeHeap(a, 30)
+
+}
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+new(v, 20)
+
+{
+	new(a, 22)
+
+	writeHeap(a, 30)
+
+}
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+v->10
+Output list:
+ExeStack:
+
+{
+	new(a, 22)
+
+	writeHeap(a, 30)
+
+}
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+v->0
+Output list:
+ExeStack:
+
+new(a, 22)
+
+writeHeap(a, 30)
+
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+v->0
+Output list:
+ExeStack:
+
+writeHeap(a, 30)
+
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->1
+v->0
+Output list:
+ExeStack:
+
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+SymbolTable:
+
+a->1
+v->0
+Output list:
+ExeStack:
+
+Print(a)
+Print(readH(a)
+)
+SymbolTable:
+
+a->1
+v->0
+Output list:
+ExeStack:
+
+Print(readH(a)
+)
+SymbolTable:
+
+a->1
+v->0
+Output list:
+1
+ExeStack:
+
+SymbolTable:
+
+a->1
+v->0
+Output list:
+1
+30
+ExeStack:
+
+{
+	{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	writeHeap(a, 30)
+
+}
+}
+	{
+	Print(a)
+	Print(readH(a)
+)
+}
+}
+a=0
+SymbolTable:
+
+Output list:
+ExeStack:
+
+{
+	{
+	v=10
+	new(v, 20)
+
+}
+	{
+	new(a, 22)
+
+	writeHeap(a, 30)
+
+}
+}
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+a=0
+SymbolTable:
+
+Output list:
+ExeStack:
+
+{
+	v=10
+	new(v, 20)
+
+}
+{
+	new(a, 22)
+
+	writeHeap(a, 30)
+
+}
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+a=0
+SymbolTable:
+
+Output list:
+ExeStack:
+
+v=10
+new(v, 20)
+
+{
+	new(a, 22)
+
+	writeHeap(a, 30)
+
+}
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+a=0
+SymbolTable:
+
+Output list:
+ExeStack:
+
+new(v, 20)
+
+{
+	new(a, 22)
+
+	writeHeap(a, 30)
+
+}
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+a=0
+SymbolTable:
+
+v->10
+Output list:
+ExeStack:
+
+{
+	new(a, 22)
+
+	writeHeap(a, 30)
+
+}
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+a=0
+SymbolTable:
+
+v->1
+Output list:
+ExeStack:
+
+new(a, 22)
+
+writeHeap(a, 30)
+
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+a=0
+SymbolTable:
+
+v->1
+Output list:
+ExeStack:
+
+writeHeap(a, 30)
+
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+a=0
+SymbolTable:
+
+a->2
+v->1
+Output list:
+ExeStack:
+
+{
+	Print(a)
+	Print(readH(a)
+)
+}
+a=0
+SymbolTable:
+
+a->2
+v->1
+Output list:
+ExeStack:
+
+Print(a)
+Print(readH(a)
+)
+a=0
+SymbolTable:
+
+a->2
+v->1
+Output list:
+ExeStack:
+
+Print(readH(a)
+)
+a=0
+SymbolTable:
+
+a->2
+v->1
+Output list:
+2
+ExeStack:
+
+a=0
+SymbolTable:
+
+a->2
+v->1
+Output list:
+2
+30
+ExeStack:
+
+SymbolTable:
+
+a->0
+v->1
+Output list:
+2
+30

@@ -1,0 +1,3263 @@
+1
+ExeStack = {
+   v=20; for(v=0;v<3;v=v+1){Fork(Print(v); v=v+1 )} 
+   Print(v*10)
+}
+
+
+SymbolTable = {}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   v=20
+   for(v=0;v<3;v=v+1){Fork(Print(v); v=v+1 )}
+   Print(v*10)
+}
+
+
+SymbolTable = {}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   for(v=0;v<3;v=v+1){Fork(Print(v); v=v+1 )}
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 20
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   v=0; While(v<3){Fork(Print(v); v=v+1 ); v=v+1 } 
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 20
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   v=0
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 20
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 0
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   Fork(Print(v); v=v+1 ); v=v+1 
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 0
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   Fork(Print(v); v=v+1 )
+   v=v+1
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 0
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   v=v+1
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 0
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+2
+ExeStack = {
+   Print(v); v=v+1 
+}
+
+
+SymbolTable = {
+   v <- 0
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 1
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+2
+ExeStack = {
+   Print(v)
+   v=v+1
+}
+
+
+SymbolTable = {
+   v <- 0
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   Fork(Print(v); v=v+1 ); v=v+1 
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 1
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+}
+
+
+2
+ExeStack = {
+   v=v+1
+}
+
+
+SymbolTable = {
+   v <- 0
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+}
+
+
+1
+ExeStack = {
+   Fork(Print(v); v=v+1 )
+   v=v+1
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 1
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+}
+
+
+2
+ExeStack = {}
+
+
+SymbolTable = {
+   v <- 1
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+}
+
+
+1
+ExeStack = {
+   v=v+1
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 1
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+}
+
+
+3
+ExeStack = {
+   Print(v); v=v+1 
+}
+
+
+SymbolTable = {
+   v <- 1
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+}
+
+
+1
+ExeStack = {
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+}
+
+
+3
+ExeStack = {
+   Print(v)
+   v=v+1
+}
+
+
+SymbolTable = {
+   v <- 1
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+}
+
+
+1
+ExeStack = {
+   Fork(Print(v); v=v+1 ); v=v+1 
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+}
+
+
+3
+ExeStack = {
+   v=v+1
+}
+
+
+SymbolTable = {
+   v <- 1
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+}
+
+
+1
+ExeStack = {
+   Fork(Print(v); v=v+1 )
+   v=v+1
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+}
+
+
+3
+ExeStack = {}
+
+
+SymbolTable = {
+   v <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+}
+
+
+1
+ExeStack = {
+   v=v+1
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+}
+
+
+4
+ExeStack = {
+   Print(v); v=v+1 
+}
+
+
+SymbolTable = {
+   v <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+}
+
+
+1
+ExeStack = {
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 3
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+}
+
+
+4
+ExeStack = {
+   Print(v)
+   v=v+1
+}
+
+
+SymbolTable = {
+   v <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+}
+
+
+1
+ExeStack = {
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 3
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+   2
+}
+
+
+4
+ExeStack = {
+   v=v+1
+}
+
+
+SymbolTable = {
+   v <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+   2
+}
+
+
+1
+ExeStack = {}
+
+
+SymbolTable = {
+   v <- 3
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+   2
+   30
+}
+
+
+4
+ExeStack = {}
+
+
+SymbolTable = {
+   v <- 3
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+   2
+   30
+}
+
+
+1
+ExeStack = {
+   v=20; for(v=0;v<3;v=v+1){Fork(Print(v); v=v+1 )} 
+   Print(v*10)
+}
+
+
+SymbolTable = {}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   v=20
+   for(v=0;v<3;v=v+1){Fork(Print(v); v=v+1 )}
+   Print(v*10)
+}
+
+
+SymbolTable = {}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   for(v=0;v<3;v=v+1){Fork(Print(v); v=v+1 )}
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 20
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   v=0; While(v<3){Fork(Print(v); v=v+1 ); v=v+1 } 
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 20
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   v=0
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 20
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 0
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   Fork(Print(v); v=v+1 ); v=v+1 
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 0
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   Fork(Print(v); v=v+1 )
+   v=v+1
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 0
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   v=v+1
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 0
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+2
+ExeStack = {
+   Print(v); v=v+1 
+}
+
+
+SymbolTable = {
+   v <- 0
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 1
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+2
+ExeStack = {
+   Print(v)
+   v=v+1
+}
+
+
+SymbolTable = {
+   v <- 0
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   Fork(Print(v); v=v+1 ); v=v+1 
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 1
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+}
+
+
+2
+ExeStack = {
+   v=v+1
+}
+
+
+SymbolTable = {
+   v <- 0
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+}
+
+
+1
+ExeStack = {
+   Fork(Print(v); v=v+1 )
+   v=v+1
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 1
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+}
+
+
+2
+ExeStack = {}
+
+
+SymbolTable = {
+   v <- 1
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+}
+
+
+1
+ExeStack = {
+   v=v+1
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 1
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+}
+
+
+3
+ExeStack = {
+   Print(v); v=v+1 
+}
+
+
+SymbolTable = {
+   v <- 1
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+}
+
+
+1
+ExeStack = {
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+}
+
+
+3
+ExeStack = {
+   Print(v)
+   v=v+1
+}
+
+
+SymbolTable = {
+   v <- 1
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+}
+
+
+1
+ExeStack = {
+   Fork(Print(v); v=v+1 ); v=v+1 
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+}
+
+
+3
+ExeStack = {
+   v=v+1
+}
+
+
+SymbolTable = {
+   v <- 1
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+}
+
+
+1
+ExeStack = {
+   Fork(Print(v); v=v+1 )
+   v=v+1
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+}
+
+
+3
+ExeStack = {}
+
+
+SymbolTable = {
+   v <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+}
+
+
+1
+ExeStack = {
+   v=v+1
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+}
+
+
+4
+ExeStack = {
+   Print(v); v=v+1 
+}
+
+
+SymbolTable = {
+   v <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+}
+
+
+1
+ExeStack = {
+   While(v<3){Fork(Print(v); v=v+1 ); v=v+1 }
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 3
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+}
+
+
+4
+ExeStack = {
+   Print(v)
+   v=v+1
+}
+
+
+SymbolTable = {
+   v <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+}
+
+
+1
+ExeStack = {
+   Print(v*10)
+}
+
+
+SymbolTable = {
+   v <- 3
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+   2
+}
+
+
+4
+ExeStack = {
+   v=v+1
+}
+
+
+SymbolTable = {
+   v <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+   2
+}
+
+
+1
+ExeStack = {}
+
+
+SymbolTable = {
+   v <- 3
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+   2
+   30
+}
+
+
+4
+ExeStack = {}
+
+
+SymbolTable = {
+   v <- 3
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {
+   0
+   1
+   2
+   30
+}
+
+
+1
+ExeStack = {
+   OpenFile(test.in var_f)
+   ReadFileStatement(var_f+2 var_c); Print(var_c); if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f)   
+}
+
+
+SymbolTable = {}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   ReadFileStatement(var_f+2 var_c); Print(var_c); if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f)   
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   ReadFileStatement(var_f+2 var_c)
+   Print(var_c); if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f)  
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   Print(var_c); if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f)  
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   Print(var_c)
+   if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f) 
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f) 
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0))
+   CloseRFile(var_f)
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   CloseRFile(var_f)
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   OpenFile(test.in var_f)
+   ReadFileStatement(var_f+2 var_c); Print(var_c); if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f)   
+}
+
+
+SymbolTable = {}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   ReadFileStatement(var_f+2 var_c); Print(var_c); if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f)   
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   ReadFileStatement(var_f+2 var_c)
+   Print(var_c); if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f)  
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   Print(var_c); if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f)  
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   Print(var_c)
+   if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f) 
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f) 
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0))
+   CloseRFile(var_f)
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   CloseRFile(var_f)
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   OpenFile(test.in var_f)
+   ReadFileStatement(var_f+2 var_c); Print(var_c); if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f)   
+}
+
+
+SymbolTable = {}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   ReadFileStatement(var_f+2 var_c); Print(var_c); if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f)   
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   ReadFileStatement(var_f+2 var_c)
+   Print(var_c); if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f)  
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   Print(var_c); if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f)  
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   Print(var_c)
+   if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f) 
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0)); CloseRFile(var_f) 
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   if(var_c) then(ReadFileStatement(var_f var_c); Print(var_c) )ELSE(Print(0))
+   CloseRFile(var_f)
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   CloseRFile(var_f)
+}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = [
+   2 - test.in
+]
+
+
+Output = {}
+
+
+1
+ExeStack = {}
+
+
+SymbolTable = {
+   var_f <- 2
+}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   New(v1,2); New(v2,3) ; New(v3,4); newLatch(cnt,rH(v2))  ; Fork(wH(v1,rH(v1)*10); Print(rH(v1)) ; countdown(cnt) ) 
+   Fork(wH(v2,rH(v2)*10); Print(rH(v2)) ; countdown(cnt) ); Fork(wH(v3,rH(v3)*10); Print(rH(v3)) ; countdown(cnt) ) ; await(cnt); Print(cnt) ; countdown(cnt); Print(cnt)   
+}
+
+
+SymbolTable = {}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   New(v1,2); New(v2,3) ; New(v3,4); newLatch(cnt,rH(v2))  
+   Fork(wH(v1,rH(v1)*10); Print(rH(v1)) ; countdown(cnt) )
+   Fork(wH(v2,rH(v2)*10); Print(rH(v2)) ; countdown(cnt) ); Fork(wH(v3,rH(v3)*10); Print(rH(v3)) ; countdown(cnt) ) ; await(cnt); Print(cnt) ; countdown(cnt); Print(cnt)   
+}
+
+
+SymbolTable = {}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   New(v1,2); New(v2,3) 
+   New(v3,4); newLatch(cnt,rH(v2)) 
+   Fork(wH(v1,rH(v1)*10); Print(rH(v1)) ; countdown(cnt) )
+   Fork(wH(v2,rH(v2)*10); Print(rH(v2)) ; countdown(cnt) ); Fork(wH(v3,rH(v3)*10); Print(rH(v3)) ; countdown(cnt) ) ; await(cnt); Print(cnt) ; countdown(cnt); Print(cnt)   
+}
+
+
+SymbolTable = {}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   New(v1,2)
+   New(v2,3)
+   New(v3,4); newLatch(cnt,rH(v2)) 
+   Fork(wH(v1,rH(v1)*10); Print(rH(v1)) ; countdown(cnt) )
+   Fork(wH(v2,rH(v2)*10); Print(rH(v2)) ; countdown(cnt) ); Fork(wH(v3,rH(v3)*10); Print(rH(v3)) ; countdown(cnt) ) ; await(cnt); Print(cnt) ; countdown(cnt); Print(cnt)   
+}
+
+
+SymbolTable = {}
+
+
+Heap = {}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   New(v2,3)
+   New(v3,4); newLatch(cnt,rH(v2)) 
+   Fork(wH(v1,rH(v1)*10); Print(rH(v1)) ; countdown(cnt) )
+   Fork(wH(v2,rH(v2)*10); Print(rH(v2)) ; countdown(cnt) ); Fork(wH(v3,rH(v3)*10); Print(rH(v3)) ; countdown(cnt) ) ; await(cnt); Print(cnt) ; countdown(cnt); Print(cnt)   
+}
+
+
+SymbolTable = {
+   v1 <- 2
+}
+
+
+Heap = {
+   2 - 2
+}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   New(v3,4); newLatch(cnt,rH(v2)) 
+   Fork(wH(v1,rH(v1)*10); Print(rH(v1)) ; countdown(cnt) )
+   Fork(wH(v2,rH(v2)*10); Print(rH(v2)) ; countdown(cnt) ); Fork(wH(v3,rH(v3)*10); Print(rH(v3)) ; countdown(cnt) ) ; await(cnt); Print(cnt) ; countdown(cnt); Print(cnt)   
+}
+
+
+SymbolTable = {
+   v1 <- 2
+   v2 <- 3
+}
+
+
+Heap = {
+   2 - 2
+   3 - 3
+}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   New(v3,4)
+   newLatch(cnt,rH(v2))
+   Fork(wH(v1,rH(v1)*10); Print(rH(v1)) ; countdown(cnt) )
+   Fork(wH(v2,rH(v2)*10); Print(rH(v2)) ; countdown(cnt) ); Fork(wH(v3,rH(v3)*10); Print(rH(v3)) ; countdown(cnt) ) ; await(cnt); Print(cnt) ; countdown(cnt); Print(cnt)   
+}
+
+
+SymbolTable = {
+   v1 <- 2
+   v2 <- 3
+}
+
+
+Heap = {
+   2 - 2
+   3 - 3
+}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   newLatch(cnt,rH(v2))
+   Fork(wH(v1,rH(v1)*10); Print(rH(v1)) ; countdown(cnt) )
+   Fork(wH(v2,rH(v2)*10); Print(rH(v2)) ; countdown(cnt) ); Fork(wH(v3,rH(v3)*10); Print(rH(v3)) ; countdown(cnt) ) ; await(cnt); Print(cnt) ; countdown(cnt); Print(cnt)   
+}
+
+
+SymbolTable = {
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 2
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   Fork(wH(v1,rH(v1)*10); Print(rH(v1)) ; countdown(cnt) )
+   Fork(wH(v2,rH(v2)*10); Print(rH(v2)) ; countdown(cnt) ); Fork(wH(v3,rH(v3)*10); Print(rH(v3)) ; countdown(cnt) ) ; await(cnt); Print(cnt) ; countdown(cnt); Print(cnt)   
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 2
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   Fork(wH(v2,rH(v2)*10); Print(rH(v2)) ; countdown(cnt) ); Fork(wH(v3,rH(v3)*10); Print(rH(v3)) ; countdown(cnt) ) ; await(cnt); Print(cnt) ; countdown(cnt); Print(cnt)   
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 2
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+6
+ExeStack = {
+   wH(v1,rH(v1)*10); Print(rH(v1)) ; countdown(cnt) 
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 2
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   Fork(wH(v2,rH(v2)*10); Print(rH(v2)) ; countdown(cnt) ); Fork(wH(v3,rH(v3)*10); Print(rH(v3)) ; countdown(cnt) ) 
+   await(cnt); Print(cnt) ; countdown(cnt); Print(cnt)  
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 2
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+6
+ExeStack = {
+   wH(v1,rH(v1)*10); Print(rH(v1)) 
+   countdown(cnt)
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 2
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   Fork(wH(v2,rH(v2)*10); Print(rH(v2)) ; countdown(cnt) )
+   Fork(wH(v3,rH(v3)*10); Print(rH(v3)) ; countdown(cnt) )
+   await(cnt); Print(cnt) ; countdown(cnt); Print(cnt)  
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 2
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+6
+ExeStack = {
+   wH(v1,rH(v1)*10)
+   Print(rH(v1))
+   countdown(cnt)
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 2
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   Fork(wH(v3,rH(v3)*10); Print(rH(v3)) ; countdown(cnt) )
+   await(cnt); Print(cnt) ; countdown(cnt); Print(cnt)  
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+6
+ExeStack = {
+   Print(rH(v1))
+   countdown(cnt)
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+7
+ExeStack = {
+   wH(v2,rH(v2)*10); Print(rH(v2)) ; countdown(cnt) 
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {}
+
+
+1
+ExeStack = {
+   await(cnt); Print(cnt) ; countdown(cnt); Print(cnt)  
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+}
+
+
+6
+ExeStack = {
+   countdown(cnt)
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+}
+
+
+7
+ExeStack = {
+   wH(v2,rH(v2)*10); Print(rH(v2)) 
+   countdown(cnt)
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+}
+
+
+8
+ExeStack = {
+   wH(v3,rH(v3)*10); Print(rH(v3)) ; countdown(cnt) 
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+}
+
+
+1
+ExeStack = {
+   await(cnt); Print(cnt) 
+   countdown(cnt); Print(cnt) 
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+}
+
+
+6
+ExeStack = {}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+}
+
+
+7
+ExeStack = {
+   wH(v2,rH(v2)*10)
+   Print(rH(v2))
+   countdown(cnt)
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+}
+
+
+8
+ExeStack = {
+   wH(v3,rH(v3)*10); Print(rH(v3)) 
+   countdown(cnt)
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 3
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+}
+
+
+1
+ExeStack = {
+   await(cnt)
+   Print(cnt)
+   countdown(cnt); Print(cnt) 
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 30
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+}
+
+
+7
+ExeStack = {
+   Print(rH(v2))
+   countdown(cnt)
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 30
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+}
+
+
+8
+ExeStack = {
+   wH(v3,rH(v3)*10)
+   Print(rH(v3))
+   countdown(cnt)
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 30
+   4 - 4
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+}
+
+
+1
+ExeStack = {
+   await(cnt)
+   Print(cnt)
+   countdown(cnt); Print(cnt) 
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 30
+   4 - 40
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+   30
+}
+
+
+7
+ExeStack = {
+   countdown(cnt)
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 30
+   4 - 40
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+   30
+}
+
+
+8
+ExeStack = {
+   Print(rH(v3))
+   countdown(cnt)
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 30
+   4 - 40
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+   30
+}
+
+
+1
+ExeStack = {
+   await(cnt)
+   Print(cnt)
+   countdown(cnt); Print(cnt) 
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 30
+   4 - 40
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+   30
+   7
+   40
+}
+
+
+7
+ExeStack = {}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 30
+   4 - 40
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+   30
+   7
+   40
+}
+
+
+8
+ExeStack = {
+   countdown(cnt)
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 30
+   4 - 40
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+   30
+   7
+   40
+}
+
+
+1
+ExeStack = {
+   await(cnt)
+   Print(cnt)
+   countdown(cnt); Print(cnt) 
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 30
+   4 - 40
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+   30
+   7
+   40
+   8
+}
+
+
+8
+ExeStack = {}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 30
+   4 - 40
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+   30
+   7
+   40
+   8
+}
+
+
+1
+ExeStack = {
+   Print(cnt)
+   countdown(cnt); Print(cnt) 
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 30
+   4 - 40
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+   30
+   7
+   40
+   8
+}
+
+
+1
+ExeStack = {
+   countdown(cnt); Print(cnt) 
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 30
+   4 - 40
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+   30
+   7
+   40
+   8
+   5
+}
+
+
+1
+ExeStack = {
+   countdown(cnt)
+   Print(cnt)
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 30
+   4 - 40
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+   30
+   7
+   40
+   8
+   5
+}
+
+
+1
+ExeStack = {
+   Print(cnt)
+}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 30
+   4 - 40
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+   30
+   7
+   40
+   8
+   5
+}
+
+
+1
+ExeStack = {}
+
+
+SymbolTable = {
+   cnt <- 5
+   v1 <- 2
+   v2 <- 3
+   v3 <- 4
+}
+
+
+Heap = {
+   2 - 20
+   3 - 30
+   4 - 40
+}
+
+
+FileTable = []
+
+
+Output = {
+   20
+   6
+   30
+   7
+   40
+   8
+   5
+   5
+}
+
+

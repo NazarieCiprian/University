@@ -1,0 +1,15 @@
+subset([],[]).
+subset([_|T],R):-
+    subset(T,R).
+subset([H|T],[H|TR]):-
+    subset(T,TR).
+
+oneSolution(L,R):-
+    subset(L,R1),
+    R = R1.
+allSolutions(L,Rall):-
+    findall(Ri,oneSolution(L,Ri),Rall).
+
+
+
+

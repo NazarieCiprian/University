@@ -1,0 +1,12 @@
+removel([],_,[]).
+removel([H|T],E,[H|TR]):-
+    H=\=E,
+    removel(T,E,TR).
+removel([H|T],E,R):-
+    H=:=E,
+    removel(T,E,R).
+
+equal([],[]).
+equal([H|T],R):-
+    removel(R,H,R1),
+    equal(T,R1).

@@ -1,0 +1,14 @@
+valley_inc([_]).
+valley_inc([H1,H2|T]):-
+    H1<H2,
+    valley_inc([H2|T]).
+valley_dec([H1,H2|T]):-
+    H1<H2,
+    valley_inc([H2|T]).
+valley_dec([H1,H2|T]):-
+    H1>H2,
+    valley_dec([H2|T]).
+
+valley([H1,H2|T]):-
+    H1>H2,
+    valley_dec([H2|T]).

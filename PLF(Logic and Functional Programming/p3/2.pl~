@@ -1,0 +1,33 @@
+coliniar([X1|Y1],[X2|Y2],[X3|Y3]):-
+    Det is X1*Y2 + X2*Y3 + Y1*X3 - X2*Y1-Y2*X3 - Y3*X1,
+    Det =:=0.
+
+collinear([]).
+collinear([_|[]]).
+collinear([_,_|[]]).
+collinear([H1,H2,H3|T]):-
+    coliniar(H1,H2,H3),
+    collinear([H2,H3|T]).
+
+
+subset1([],[]).
+subset1([_|T],R):-
+    subset1(T,R).
+subset1([H|T],[H|TR]):-
+    subset1(T,TR).
+
+getSubset(L,R):-
+    subset1(L,R1),
+    R is R1.
+
+allSubsets(L,Rall):-
+    findall(Ri,getSubset(L,Ri),Rall).
+collinearSub(L,R):-
+    subset1(L,R1),
+    collinear(R1),
+    R = R1.
+
+allCollinear(L,Rall):-
+    findall(Ri,collinearSub(L,Ri),Rall).
+
+

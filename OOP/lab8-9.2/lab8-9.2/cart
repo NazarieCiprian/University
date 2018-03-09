@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html><head>
+<title>Basket</title>
+</head>
+<body>
+<table border="1">
+ <tr>
+<td>Size</td>
+<td>Colour</td>
+<td>Quantity</td>
+<td>Price</td>
+<td>Link</td>
+</tr>
+<tr>
+<td>
+150</td>
+<td>
+red</td>
+<td>
+78</td>
+<td>
+50</td>
+<td>
+<a href=google</a></td>
+</tr>
+<tr>
+<td>
+150</td>
+<td>
+red</td>
+<td>
+77</td>
+<td>
+50</td>
+<td>
+<a href=google</a></td>
+</tr>
+</table>
+</body>
+</html>

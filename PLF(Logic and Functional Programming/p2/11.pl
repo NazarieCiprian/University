@@ -1,0 +1,35 @@
+replacee([],_,_,[]).
+replacee([H|T],E,O,[H|TR]):-
+    H=\=E,
+    replacee(T,E,O,TR).
+replacee([H|T],E,O,[O|TR]):-
+    H=:=E,
+    replacee(T,E,O,TR).
+
+maxi2(A,B,A):-A>=B.
+maxi2(A,B,B):-A<B.
+
+maxList([E],E):-number(E).
+maxList([E],0):-is_list(E).
+maxList([H|T],M):-
+    number(H),
+    maxList(T,M1),
+    maxi2(M1,H,M).
+maxList([H|T],M):-
+    is_list(H),
+    maxList(T,M).
+
+subst6([],_,[]).
+subst6([H|T],E,[H|TR]):-
+    number(H),
+    subst6(T,E,TR).
+
+subst6([H|T],E,[R|TR]):-
+    is_list(H),
+    maxList(H,M),
+    replacee(H,E,M,R),
+    subst6(T,E,TR).
+
+apel(L,R):-
+    maxList(L,M),
+    subst6(L,M,R).

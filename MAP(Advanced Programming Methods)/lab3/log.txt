@@ -1,0 +1,2275 @@
+ExeStack:
+
+{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+Model.Statement.ReadFileStatement@7f9a81e8
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+Model.Statement.ReadFileStatement@7f9a81e8
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+Output list:
+ExeStack:
+
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+ExeStack:
+
+Print(var_c)
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+ExeStack:
+
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+15
+ExeStack:
+
+{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+15
+ExeStack:
+
+Model.Statement.ReadFileStatement@26be92ad
+Print(var_c)
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+15
+ExeStack:
+
+Print(var_c)
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+ExeStack:
+
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+Model.Statement.ReadFileStatement@7f9a81e8
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+Model.Statement.ReadFileStatement@7f9a81e8
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+ExeStack:
+
+Print(var_c)
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+ExeStack:
+
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+15
+ExeStack:
+
+{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+15
+ExeStack:
+
+Model.Statement.ReadFileStatement@26be92ad
+Print(var_c)
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+15
+ExeStack:
+
+Print(var_c)
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+15
+ExeStack:
+
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+15
+50
+ExeStack:
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+15
+50
+ExeStack:
+
+{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@58651fd0
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@58651fd0
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@58651fd0
+}
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@58651fd0
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+Model.Statement.ReadFileStatement@58651fd0
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@58651fd0
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+Model.Statement.ReadFileStatement@58651fd0
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@58651fd0
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+Output list:
+ExeStack:
+
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@58651fd0
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+ExeStack:
+
+Print(var_c)
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@58651fd0
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+ExeStack:
+
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@58651fd0
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+15
+ExeStack:
+
+{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@58651fd0
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+15
+ExeStack:
+
+Model.Statement.ReadFileStatement@46d56d67
+Print(var_c)
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@58651fd0
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+15
+ExeStack:
+
+Print(var_c)
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@58651fd0
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+ExeStack:
+
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@58651fd0
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@58651fd0
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@58651fd0
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@58651fd0
+}
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+Model.Statement.ReadFileStatement@58651fd0
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+Model.Statement.ReadFileStatement@58651fd0
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+ExeStack:
+
+Print(var_c)
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+ExeStack:
+
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+15
+ExeStack:
+
+{
+	Model.Statement.ReadFileStatement@46d56d67
+	Print(var_c)
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+15
+ExeStack:
+
+Model.Statement.ReadFileStatement@46d56d67
+Print(var_c)
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+15
+ExeStack:
+
+Print(var_c)
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+15
+ExeStack:
+
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+15
+50
+ExeStack:
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+15
+50
+ExeStack:
+
+{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+Model.Statement.ReadFileStatement@7f9a81e8
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+Model.Statement.ReadFileStatement@7f9a81e8
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+Output list:
+ExeStack:
+
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+ExeStack:
+
+Print(var_c)
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+ExeStack:
+
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+15
+ExeStack:
+
+{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+15
+ExeStack:
+
+Model.Statement.ReadFileStatement@26be92ad
+Print(var_c)
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->15
+Output list:
+15
+ExeStack:
+
+Print(var_c)
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+ExeStack:
+
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@7f9a81e8
+}
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+Model.Statement.ReadFileStatement@7f9a81e8
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->0
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+Model.Statement.ReadFileStatement@7f9a81e8
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+ExeStack:
+
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+ExeStack:
+
+Print(var_c)
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+ExeStack:
+
+if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+	}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+15
+ExeStack:
+
+{
+	Model.Statement.ReadFileStatement@26be92ad
+	Print(var_c)
+}
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+15
+ExeStack:
+
+Model.Statement.ReadFileStatement@26be92ad
+Print(var_c)
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+50
+15
+ExeStack:
+
+Print(var_c)
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+15
+ExeStack:
+
+CloseFile(var_f)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+15
+50
+ExeStack:
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+15
+50
+ExeStack:
+
+{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@4520ebad
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@d8355a8
+	Print(var_c)
+}
+	}
+}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@4520ebad
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@d8355a8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@4520ebad
+}
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@d8355a8
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@4520ebad
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@d8355a8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+Model.Statement.ReadFileStatement@4520ebad
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@d8355a8
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@4520ebad
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@d8355a8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+Output list:
+ExeStack:
+
+Model.Statement.ReadFileStatement@4520ebad
+{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@d8355a8
+	Print(var_c)
+}
+	}
+}
+CloseFile(var_f)
+{
+	{
+	{
+	Open(var_f,D:\JavaRepository\Map\lab3\src\test.in)
+	Model.Statement.ReadFileStatement@4520ebad
+}
+	{
+	Print(var_c)
+	if(var_c)
+	{
+		Print(0)
+	}
+	else{
+		{
+	Model.Statement.ReadFileStatement@d8355a8
+	Print(var_c)
+}
+	}
+}
+}
+	CloseFile(var_f)
+}
+SymbolTable:
+
+var_f->0
+Output list:

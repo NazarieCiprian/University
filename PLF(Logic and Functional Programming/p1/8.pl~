@@ -1,0 +1,18 @@
+evenOdd([],1).
+evenOdd([_|T],C):-
+    evenOdd(T,C1),
+    C is C1*(-1).
+nrEl(L):-
+    evenOdd(L,1),
+    write('Even').
+nrEl(L):-
+    evenOdd(L,-1),
+    write('Odd').
+
+mini(A,B,A):-A<B.
+mini(A,B,B):-A>=B.
+minimList([E],E).
+minimList([H|T],M):-
+    minimList(T,M1),
+    mini(H,M1,M).
+

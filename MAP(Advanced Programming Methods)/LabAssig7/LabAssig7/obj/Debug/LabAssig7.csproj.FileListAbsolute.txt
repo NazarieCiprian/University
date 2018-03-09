@@ -1,0 +1,6 @@
+D:\Visual Studio\C#projects\LabAssig7\LabAssig7\bin\Debug\LabAssig7.exe.config
+D:\Visual Studio\C#projects\LabAssig7\LabAssig7\obj\Debug\LabAssig7.csprojResolveAssemblyReference.cache
+D:\Visual Studio\C#projects\LabAssig7\LabAssig7\bin\Debug\LabAssig7.exe
+D:\Visual Studio\C#projects\LabAssig7\LabAssig7\bin\Debug\LabAssig7.pdb
+D:\Visual Studio\C#projects\LabAssig7\LabAssig7\obj\Debug\LabAssig7.exe
+D:\Visual Studio\C#projects\LabAssig7\LabAssig7\obj\Debug\LabAssig7.pdb

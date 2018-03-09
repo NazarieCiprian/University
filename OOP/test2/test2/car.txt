@@ -1,0 +1,4 @@
+Car body:sedan Electric engine fuel:electricity autonomy:100  Price:11001
+Car body:sedan Electric engine fuel:electricity autonomy:100  Price:11001
+Car body:convertibleTurbo engine fuel:diesel  Price:12001.5
+Car body:convertibleTurbo engine fuel:diesel  Price:12001.5
