@@ -1,0 +1,72 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>reposet.h</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+#pragma once
+#include "Plate.h"
+#include "Exception.h"
+class Set
+{
+public:
+	Plate *elems;
+	int *next;
+	int *prev;
+	int firstEmpty;
+	int head;
+	int tail;
+	int cap;
+
+public:
+	//Set constructor
+	Set(int capacity = 10);
+	//Set copy constructor
+	Set(const Set&amp; v);
+	//destructor
+	~Set();
+	Set&amp; operator=(const Set&amp; v);
+	Plate&amp; operator[](int pos);
+	/*
+	Adds a new elemet to the list of elements
+	Input:e - an element of type Plates
+	Output:-
+	Throws an exception if the plate already exists
+	*/
+	void add(const Plate&amp; e);
+	/*
+	Removes an element from the list of elements
+	Input:e - the element we want to remove
+	Output:-
+	Throws an exception if the element does not exist
+	*/
+	void remove(const Plate&amp; e);
+	/*
+	Searches for an element 
+	Input:e - the element we are looking for
+	Output:returns true if the element exists and false otherwise
+	*/
+	bool search(const Plate&amp; e);
+	/*
+	Returns the size of the set
+	Input:-
+	Output: an integer representing the number of elements in the set
+	*/
+	int size();
+	
+<span style = "background-color:#dfd">	Plate* getAll() { return this-&gt;elems; }</span>
+private:
+	/*
+	Performs a resize for the case in which the set is full.Doubles its dimension
+	*/
+	void resize();
+
+};
+void testRepo();</pre>
+	</body>
+</html>

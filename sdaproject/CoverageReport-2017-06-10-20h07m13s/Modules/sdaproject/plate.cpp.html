@@ -1,0 +1,66 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>plate.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+#include "Plate.h"
+
+<span style = "background-color:#dfd">Plate::Plate():jud(""),number(0),randchars("")
+{
+}</span>
+
+Plate::Plate(const string &amp; jud, const int nr, const string &amp; r)
+<span style = "background-color:#dfd">{
+	this-&gt;jud = jud;
+	this-&gt;number = nr;
+	this-&gt;randchars = r;
+}</span>
+
+void Plate::setJud(const string &amp; j)
+<span style = "background-color:#dfd">{
+	this-&gt;jud = j;
+}</span>
+
+void Plate::setNumber(const int nr)
+<span style = "background-color:#dfd">{
+	this-&gt;number = nr;
+}</span>
+
+void Plate::setRand(const string &amp; r)
+<span style = "background-color:#dfd">{
+	this-&gt;randchars = r;
+}</span>
+
+bool Plate::operator!=(const Plate &amp; e)
+<span style = "background-color:#dfd">{
+	if (this-&gt;jud != e.jud || this-&gt;number != e.number || this-&gt;randchars != e.randchars)
+		return true;
+	return false;
+}</span>
+
+void testPlate()
+<span style = "background-color:#dfd">{
+	Plate a;
+	Plate b{ "SV",97,"BCJ" };
+	string c = b.getJud();
+	assert(c == "SV");
+	c = b.getRand();
+	assert(c == "BCJ");
+	int n = b.getNumber();
+	assert(n == 97);
+	b.setJud("CJ");
+	assert(b.getJud() == "CJ");
+	b.setNumber(14);
+	assert(b.getNumber() == 14);
+	b.setRand("AAA");
+	assert(b.getRand() == "AAA");</span>
+
+<span style = "background-color:#dfd">}</span></pre>
+	</body>
+</html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>iterator.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+#include "Iterator.h"
+
+Iterator::Iterator(Set * set)
+<span style = "background-color:#dfd">{
+	this-&gt;set = set;
+	this-&gt;current = this-&gt;set-&gt;head;</span>
+
+<span style = "background-color:#dfd">}</span>
+
+Plate Iterator::getCurrent()
+<span style = "background-color:#dfd">{
+	return this-&gt;set-&gt;getAll()[this-&gt;current];
+}</span>
+
+bool Iterator::valid()
+<span style = "background-color:#dfd">{
+	if (this-&gt;current == -1)
+		return false;
+	return true;
+}</span>
+
+void Iterator::next()
+<span style = "background-color:#dfd">{
+	this-&gt;current = this-&gt;set-&gt;next[this-&gt;current];
+}</span>
+
+void Iterator::setIterator()
+<span style = "background-color:#dfd">{
+	this-&gt;current = this-&gt;set-&gt;head;
+}</span>
+
+void testIterator()
+<span style = "background-color:#dfd">{
+	Set* v = new Set{};
+	Iterator r{ v };
+	Plate a = Plate{ "AB",12,"ABC" };
+	r.setIterator();
+	assert(r.valid() == false);
+	v-&gt;add(a);
+	r.setIterator();
+	assert(r.valid() == true);
+	assert(r.getCurrent().getJud() == "AB");
+	r.next();
+	assert(r.valid() == false);
+}</span></pre>
+	</body>
+</html>

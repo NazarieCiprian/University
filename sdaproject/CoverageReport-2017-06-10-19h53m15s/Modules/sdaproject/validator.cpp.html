@@ -1,0 +1,28 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>validator.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+#include "Validator.h"
+
+void valid(Plate &amp; s)
+<span style = "background-color:#dfd">{
+	if (s.getNumber() &lt; 10 || s.getNumber() &gt; 99)</span>
+<span style = "background-color:#fdd">		throw Exception("Invalid number");</span>
+<span style = "background-color:#dfd">	if (s.getJud()[0]&lt;'A' || s.getJud()[1]&lt;'A' || s.getJud()[0]&gt;'Z' || s.getJud()[1]&gt;'Z')</span>
+<span style = "background-color:#fdd">		throw Exception("Invalid county");</span>
+<span style = "background-color:#dfd">	if (s.getJud().length() != 2)</span>
+<span style = "background-color:#fdd">		throw Exception("Invalid county");</span>
+<span style = "background-color:#dfd">	if (s.getRand().length() != 3)</span>
+<span style = "background-color:#fdd">		throw Exception("Invalid random chars");</span>
+<span style = "background-color:#dfd">	if (s.getRand()[0]&lt;'A' || s.getRand()[0]&gt;'Z' || s.getRand()[1]&lt;'A' || s.getRand()[1]&gt;'Z' || s.getRand()[2]&lt;'A' || s.getRand()[2]&gt;'Z')</span>
+<span style = "background-color:#fdd">		throw Exception("Invalid random chars");</span>
+<span style = "background-color:#dfd">}</span></pre>
+	</body>
+</html>

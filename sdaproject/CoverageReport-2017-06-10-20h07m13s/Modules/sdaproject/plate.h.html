@@ -1,0 +1,50 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>plate.h</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+#pragma once
+#include &lt;string&gt;
+#include &lt;assert.h&gt;
+using namespace std;
+
+class Plate
+{
+private:
+	string jud;
+	int number;
+	string randchars;
+
+public:
+	/*
+	Contrustctors for objects of type plate
+	*/
+	Plate();
+	Plate(const string&amp; jud, const int nr, const string&amp; r);
+	/*
+	Getters for the object atributes
+	*/
+<span style = "background-color:#dfd">	string getJud()const { return jud; }
+	int getNumber()const { return number; }
+	string getRand()const { return randchars; }</span>
+	/*
+	Setters for the objects atributes
+	*/
+	void setJud(const string&amp; j);
+	void setNumber(const int nr);
+	void setRand(const string&amp; r);
+	/*
+	Overwritting the != opeartor
+	*/
+	bool operator !=(const Plate&amp; e);
+};
+
+void testPlate();</pre>
+	</body>
+</html>

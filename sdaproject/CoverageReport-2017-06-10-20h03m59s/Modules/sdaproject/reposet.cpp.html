@@ -1,0 +1,279 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>reposet.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+#include "RepoSet.h"
+#include &lt;iostream&gt;
+using namespace std;
+Set::Set(int capacity)
+<span style = "background-color:#dfd">{
+	this-&gt;cap = capacity;
+	this-&gt;elems = new Plate[this-&gt;cap];
+	this-&gt;next = new int[this-&gt;cap];
+	this-&gt;prev = new int[this-&gt;cap];
+	this-&gt;head = -1;
+	this-&gt;tail = -1;
+	for (int i = 0; i &lt; this-&gt;cap-1; i++)</span>
+	{
+<span style = "background-color:#dfd">		this-&gt;next[i] = i + 1;
+	}
+	this-&gt;next[this-&gt;cap - 1] = -1;
+	this-&gt;prev[0] = -1;
+	for (int i = 1; i &lt; this-&gt;cap; i++)</span>
+	{
+<span style = "background-color:#dfd">		this-&gt;prev[i] = i - 1;
+	}
+	this-&gt;firstEmpty = 0;
+}</span>
+
+Set::Set(const Set &amp; v)
+<span style = "background-color:#fdd">{
+	this-&gt;cap = v.cap;
+	this-&gt;elems = new Plate[this-&gt;cap];
+	this-&gt;next = new int[this-&gt;cap];
+	this-&gt;prev = new int[this-&gt;cap];
+	for (int i = 0; i &lt; this-&gt;cap; i++)</span>
+	{
+<span style = "background-color:#fdd">		this-&gt;elems[i] = v.elems[i];
+		this-&gt;next[i] = v.next[i];
+		this-&gt;prev[i] = v.prev[i];
+	}
+	this-&gt;head = v.head;
+	this-&gt;tail = v.tail;
+	this-&gt;firstEmpty = v.firstEmpty;
+}</span>
+
+Set::~Set()
+<span style = "background-color:#dfd">{
+	delete[]this-&gt;elems;
+	delete[]this-&gt;next;
+	delete[]this-&gt;prev;
+}</span>
+
+Set &amp; Set::operator=(const Set &amp; v)
+<span style = "background-color:#fdd">{
+	if (this == &amp;v)
+		return *this;
+	this-&gt;cap = v.cap;
+	delete[]this-&gt;elems;
+	delete[]this-&gt;next;
+	delete[]this-&gt;prev;
+	this-&gt;elems = new Plate[this-&gt;cap];
+	this-&gt;next = new int[this-&gt;cap];
+	this-&gt;prev = new int[this-&gt;cap];
+	for (int i = 0; i &lt; this-&gt;cap; i++)</span>
+	{
+<span style = "background-color:#fdd">		this-&gt;elems[i] = v.elems[i];
+		this-&gt;next[i] = v.next[i];
+		this-&gt;prev[i] = v.prev[i];
+	}
+	this-&gt;head = v.head;
+	this-&gt;tail = v.tail;
+	this-&gt;firstEmpty = v.firstEmpty;
+	return *this;</span>
+
+
+<span style = "background-color:#fdd">}</span>
+
+Plate &amp; Set::operator[](int pos)
+<span style = "background-color:#fdd">{
+	return this-&gt;elems[pos];
+}</span>
+
+void Set::add(const Plate &amp; e)
+<span style = "background-color:#dfd">{</span>
+
+<span style = "background-color:#dfd">	if (this-&gt;firstEmpty == -1)</span>
+<span style = "background-color:#fdd">		this-&gt;resize();</span>
+	
+<span style = "background-color:#dfd">	if (this-&gt;search(e) == true)
+		throw Exception("Plate already in set");
+	int newElem = this-&gt;firstEmpty;
+	this-&gt;firstEmpty = this-&gt;next[this-&gt;firstEmpty];
+	if(this-&gt;firstEmpty!= -1)
+		this-&gt;prev[this-&gt;firstEmpty] = -1;
+	this-&gt;elems[newElem] = e;
+	this-&gt;next[newElem] = this-&gt;head;
+	if(this-&gt;head != -1)
+		this-&gt;prev[this-&gt;head] = newElem;
+	this-&gt;prev[newElem] = -1;
+	this-&gt;head = newElem;</span>
+	//cout &lt;&lt; this-&gt;size() &lt;&lt; " ";
+<span style = "background-color:#dfd">}</span>
+
+
+void Set::remove(const Plate &amp; e)
+<span style = "background-color:#dfd">{</span>
+	/*if (this-&gt;search(e) == false)
+		throw Exception("Elemetn not in set");*/
+
+<span style = "background-color:#dfd">	int current = this-&gt;head;
+	int previous = -1;
+	while (current != -1 &amp;&amp; this-&gt;elems[current] != e)</span>
+	{
+<span style = "background-color:#dfd">		previous = current;
+		current = this-&gt;next[current];
+	}
+	if (current != -1)</span>
+	{
+<span style = "background-color:#dfd">		if (current == this-&gt;head)</span>
+		{
+<span style = "background-color:#dfd">			this-&gt;head = this-&gt;next[this-&gt;head];
+			this-&gt;prev[this-&gt;head] = -1;
+			this-&gt;prev[this-&gt;firstEmpty] = current;
+			this-&gt;next[current] = this-&gt;firstEmpty;
+			this-&gt;prev[current] = -1;
+			this-&gt;firstEmpty = current;</span>
+		}
+<span style = "background-color:#dfd">		else if (current == this-&gt;tail)</span>
+		{
+<span style = "background-color:#fdd">			this-&gt;next[previous] = -1;
+			this-&gt;tail = previous;
+			this-&gt;next[current] = this-&gt;firstEmpty;
+			this-&gt;prev[this-&gt;firstEmpty] = current;
+			this-&gt;prev[current] = -1;
+			this-&gt;firstEmpty = current;</span>
+
+		}
+<span style = "background-color:#fdd">		else</span>
+		{
+<span style = "background-color:#dfd">			this-&gt;next[previous] = this-&gt;next[current];
+			this-&gt;prev[this-&gt;next[current]] = previous;
+			this-&gt;next[current] = this-&gt;firstEmpty;
+			this-&gt;prev[this-&gt;firstEmpty] = current;
+			this-&gt;prev[current] = -1;
+			this-&gt;firstEmpty = current;</span>
+		}
+	}
+<span style = "background-color:#dfd">	else
+		throw Exception("Element not in set");
+}</span>
+
+bool Set::search(const Plate &amp; e)
+<span style = "background-color:#dfd">{</span>
+	
+<span style = "background-color:#dfd">	int current = this-&gt;head;
+	while (current != -1 &amp;&amp; this-&gt;elems[current] != e)
+		current = this-&gt;next[current];
+	if (current != -1)
+		return true;
+	return false;
+}</span>
+
+int Set::size()
+<span style = "background-color:#dfd">{
+	int size = 0;
+	int current = this-&gt;head;
+	while (current != -1)</span>
+	{
+<span style = "background-color:#dfd">		current = this-&gt;next[current];
+		size++;
+	}
+	return size;
+}</span>
+
+void Set::resize()
+<span style = "background-color:#fdd">{
+	int old = this-&gt;cap;
+	this-&gt;cap *= 2;
+	Plate* els=new Plate[this-&gt;cap];
+	int* nex=new int[this-&gt;cap];
+	int* pre=new int[this-&gt;cap];
+	for (int i = 0; i &lt; old; i++)</span>
+	{
+<span style = "background-color:#fdd">		els[i] = this-&gt;elems[i];
+		nex[i] = this-&gt;next[i];
+		pre[i] = this-&gt;prev[i];</span>
+		/*this-&gt;elems[i] = els[i];
+		this-&gt;next[i] = nex[i];
+		this-&gt;prev[i] = pre[i];*/
+<span style = "background-color:#fdd">	}
+	for (int i = old; i &lt; this-&gt;cap - 1; i++)</span>
+	{
+<span style = "background-color:#fdd">		nex[i] = i + 1;
+	}
+	nex[this-&gt;cap-1] = -1;
+	for (int i = old + 1; i &lt; this-&gt;cap; i++)</span>
+	{
+<span style = "background-color:#fdd">		pre[i] = i - 1;
+	}
+	pre[old] = - 1;
+	this-&gt;firstEmpty = old;</span>
+	
+<span style = "background-color:#fdd">	delete[]this-&gt;next;
+	delete[]this-&gt;elems;
+	delete[]this-&gt;prev;
+	this-&gt;elems = els;
+	this -&gt; next = nex;
+	this-&gt;prev = pre;</span>
+
+<span style = "background-color:#fdd">}</span>
+
+void testRepo()
+<span style = "background-color:#dfd">{
+	Set v;
+	Plate a{ "CJ",10,"ABC" };
+	Plate c{ "AB",10,"ABC" };
+	v.add(a);
+	assert(v.size() == 1);
+	try</span>
+	{
+<span style = "background-color:#dfd">		v.add(a);</span>
+<span style = "background-color:#fdd">		assert(false);
+	}</span>
+	catch(Exception&amp; e)
+	{
+		assert(true);
+<span style = "background-color:#dfd">	}
+	Plate b{ "GJ",10,"ABC" };
+	v.add(b);
+	assert(v.size() == 2);
+	assert(v.search(a) == true);
+	assert(v.search(c) == false);
+	v.remove(b);
+	v.add(b);
+	v.add(c);
+	v.remove(b);
+	assert(v.size() == 2);
+	try</span>
+	{
+<span style = "background-color:#dfd">		v.remove(b);</span>
+<span style = "background-color:#fdd">	}</span>
+	catch (Exception&amp; e)
+	{
+		assert(true);
+<span style = "background-color:#dfd">		string exc = e.getMessage();
+	}
+	Plate a1{ "SV",10,"LAL" };
+	Plate b1{ "SV",87,"TZU" };
+	Plate c1{ "SV",11,"LAL" };
+	Plate d{ "SV",82,"TZU" };
+	Plate e{ "SV",13,"LAL" };
+	Plate f{ "SV",84,"TZU" };
+	Plate g{ "SV",14,"LAL" };
+	Plate h{ "SV",85,"TZU" };
+	Plate i{ "SV",23,"LAL" };
+	Plate j{ "SV",44,"TZU" };
+	Plate k{ "SV",45,"TZU" };
+	Set s;
+	s.add(a1);
+	s.add(b1);
+	s.add(c1);
+	s.add(d);
+	s.add(e);
+	s.add(f);
+	s.add(g);
+	s.add(h);
+	s.add(i);
+	s.add(j);</span>
+
+<span style = "background-color:#dfd">}</span></pre>
+	</body>
+</html>

@@ -1,0 +1,181 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>ui.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+#include "Ui.h"
+#include "Validator.h"
+void Ui::run()
+<span style = "background-color:#fdd">{
+	while (true)</span>
+	{
+<span style = "background-color:#fdd">		try</span>
+		{
+<span style = "background-color:#fdd">			int cmd = { 0 };
+			cout &lt;&lt; "Command:";
+			cin &gt;&gt; cmd;
+			cin.ignore();
+			if (cmd == 0)</span>
+			{
+<span style = "background-color:#fdd">				break;</span>
+			}
+<span style = "background-color:#fdd">			else if (cmd == 1)</span>
+			{
+<span style = "background-color:#fdd">				this-&gt;addMenu();</span>
+			}
+<span style = "background-color:#fdd">			else if (cmd == 2)</span>
+			{
+<span style = "background-color:#fdd">				this-&gt;printMenu();</span>
+			}
+<span style = "background-color:#fdd">			else if (cmd == 3)</span>
+			{
+<span style = "background-color:#fdd">				this-&gt;removeMenu();</span>
+			}
+<span style = "background-color:#fdd">			else if (cmd == 4)</span>
+			{
+<span style = "background-color:#fdd">				this-&gt;searchMenu();</span>
+			}
+<span style = "background-color:#fdd">			else if (cmd == 5)</span>
+			{
+<span style = "background-color:#fdd">				this-&gt;sizeMenu();</span>
+			}
+<span style = "background-color:#fdd">		}</span>
+		catch (Exception&amp; e)
+		{
+<span style = "background-color:#fdd">			cout &lt;&lt; e.getMessage() &lt;&lt; endl;
+		}
+	}
+}</span>
+
+void Ui::addMenu()
+<span style = "background-color:#fdd">{
+	string jud;
+	cout &lt;&lt; "Judet:";
+	cin &gt;&gt; jud;</span>
+	int nr;
+<span style = "background-color:#fdd">	cout &lt;&lt; "Number:";
+	cin &gt;&gt; nr;
+	string chars;
+	cout &lt;&lt; "Random chars:";
+	cin &gt;&gt; chars;
+	Plate a{ jud,nr,chars };
+	valid(a);</span>
+	//it.getSet()-&gt;add(a);
+<span style = "background-color:#fdd">	this-&gt;repo-&gt;add(a);
+}</span>
+
+void Ui::printMenu()
+<span style = "background-color:#fdd">{</span>
+	//	cout &lt;&lt; "Salut";
+<span style = "background-color:#fdd">	this-&gt;it.setIterator();
+	while (it.valid())</span>
+	{
+<span style = "background-color:#fdd">		Plate a = it.getCurrent();
+		cout &lt;&lt; "Plate:" &lt;&lt; a.getJud() &lt;&lt; " " &lt;&lt; a.getNumber() &lt;&lt; " " &lt;&lt; a.getRand() &lt;&lt; endl;
+		it.next();
+	}
+}</span>
+
+void Ui::removeMenu()
+<span style = "background-color:#fdd">{
+	string jud;
+	cout &lt;&lt; "Judet:";
+	cin &gt;&gt; jud;</span>
+	int nr;
+<span style = "background-color:#fdd">	cout &lt;&lt; "Number:";
+	cin &gt;&gt; nr;
+	cin.ignore();
+	string chars;
+	cout &lt;&lt; "Chars:";
+	cin &gt;&gt; chars;
+	Plate a{ jud,nr,chars };
+	valid(a);
+	this-&gt;repo-&gt;remove(a);</span>
+	//cout &lt;&lt; this-&gt;repo.size();
+<span style = "background-color:#fdd">}</span>
+
+void Ui::searchMenu()
+<span style = "background-color:#fdd">{
+	string jud;
+	cout &lt;&lt; "Enter the district:";
+	cin &gt;&gt; jud;</span>
+	int number;
+<span style = "background-color:#fdd">	cout &lt;&lt; "Enter the number:";
+	cin &gt;&gt; number;
+	string chars;
+	cout &lt;&lt; "Enter 3 random chars:";
+	cin &gt;&gt; chars;
+	Plate a{ jud,number,chars };
+	valid(a);
+	if (this-&gt;repo-&gt;search(a))
+		cout &lt;&lt; "Plate is in storage" &lt;&lt; endl;
+	else
+		cout &lt;&lt; "Plate is not in storage" &lt;&lt; endl;</span>
+
+<span style = "background-color:#fdd">}</span>
+
+void Ui::sizeMenu()
+<span style = "background-color:#fdd">{
+	int size = this-&gt;repo-&gt;size();
+	cout &lt;&lt; "Size of the set is:" &lt;&lt; size &lt;&lt; endl;
+}</span>
+
+void testValidator()
+<span style = "background-color:#dfd">{
+	Plate a{ "12",12,"ABC" };
+	Plate b{ "SV",-1,"ABC" };
+	Plate c{ "SV",12,"123" };
+	try</span>
+	{
+<span style = "background-color:#dfd">		valid(a);</span>
+<span style = "background-color:#fdd">	}</span>
+	catch (Exception&amp; e)
+	{
+		assert(true);
+<span style = "background-color:#dfd">	}</span>
+
+<span style = "background-color:#dfd">	try</span>
+	{
+<span style = "background-color:#dfd">		valid(b);</span>
+<span style = "background-color:#fdd">	}</span>
+	catch (Exception&amp; e)
+	{
+		assert(true);
+<span style = "background-color:#dfd">	}
+	try</span>
+	{
+<span style = "background-color:#dfd">		valid(c);</span>
+<span style = "background-color:#fdd">	}</span>
+	catch (Exception&amp; e)
+	{
+		assert(true);
+<span style = "background-color:#dfd">	}
+	Plate d{ "S",12,"ABC" };
+	Plate e{ "SV",12,"AB" };
+	try</span>
+	{
+<span style = "background-color:#dfd">		valid(d);</span>
+<span style = "background-color:#fdd">	}</span>
+	catch (Exception&amp; exc)
+	{
+		assert(true);
+<span style = "background-color:#dfd">	}
+	try</span>
+	{
+<span style = "background-color:#dfd">		valid(e);</span>
+<span style = "background-color:#fdd">	}</span>
+	catch (Exception&amp; exc)
+	{
+		assert(true);
+<span style = "background-color:#dfd">	}
+	Plate val{ "SV",10,"ABC" };</span>
+	valid(val);
+}</pre>
+	</body>
+</html>
